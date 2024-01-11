@@ -22,6 +22,9 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    backend: {
+      loadPath: "/3d-portf/locales/{{lng}}/{{ns}}.json",
+    },
   });
 
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
