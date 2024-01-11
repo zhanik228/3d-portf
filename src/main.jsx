@@ -23,7 +23,8 @@ i18n
       escapeValue: false,
     },
     backend: {
-      loadPath: "/3d-portf/locales/{{lng}}/{{ns}}.json",
+      loadPath:
+        "https://github.com/zhanik228/3d-portf/blob/main/locales/{{lng}}/{{ns}}.json",
     },
   });
 
