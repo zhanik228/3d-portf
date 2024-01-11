@@ -155,4 +155,4 @@ export function Avatar(props) {
 useGLTF.preload("models/6594fb6f44c976592980d921.glb");
 useGLTF.preload("animations/Typing.fbx");
 useGLTF.preload("animations/Standing Idle.fbx");
-useGLTF.preload("animations/Falling Idle.fbx");
+useGLTF.preload("animations/Fall B Loop.fbx");
