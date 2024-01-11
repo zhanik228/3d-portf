@@ -23,7 +23,8 @@ export const projects = [
   {
     title: "Link Shortener",
     url: "https://github.com/zhanik228/docker-lara-task",
-    image: "url",
+    image:
+      "https://i.postimg.cc/7hCXpcQD/ecommerce-admin-navy-vercel-app-75d297e0-df5c-47e4-a033-5c5bedba3205.png",
     description: "Laravel API to shorten your links.",
   },
 ];
