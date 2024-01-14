@@ -13,7 +13,7 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: "en",
+    lng: "en",
     debug: true,
     detection: {
       order: ["queryString", "cookie"],
@@ -22,6 +22,7 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    fallbackLng: false,
   });
 
 ReactDOM.createRoot(document.getElementById("root")).render(<App />);
